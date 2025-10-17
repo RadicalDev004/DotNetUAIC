@@ -1,0 +1,103 @@
+### Rider ###
+# User-specific stuff
+.idea/
+*.sln.iml
+
+# Rider local workspace
+.idea/.idea.*
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/httpRequests/
+.idea/shelf/
+.idea/assetWizardCache.xml
+
+# Generated content
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/gradle.xml
+.idea/libraries/
+
+# Editor-based files
+*.iws
+*.iml
+*.ipr
+
+### .NET / C# ###
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Visual Studio caches
+.vs/
+.vscode/
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+*.snupkg
+
+# JetBrains Rider cache
+.idea/.idea.*
+.idea/.dotnetToolResolverCache/
+.idea/.generated/
+
+# Resharper files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+### Unity (if applicable) ###
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+UserSettings/
+MemoryCaptures/
+*.unitypackage
+
+# Auto-generated JetBrains Rider plugin files
+.idea/.idea.Unity.*
+
+# Cache and temporary files
+*.tmp
+*.bak
+*.old
+*.swp
+*.pid
+*.seed
+*.orig
+*.rej
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.tlog
+
+# Rider run configurations
+.idea/runConfigurations/
+
+# Rider HTTP client environment files
+.idea/httpRequests/
+
+### Optional ###
+# Rider project-specific plugin settings (if you use them across machines)
+# !.idea/codeStyles/
+# !.idea/inspectionProfiles/
