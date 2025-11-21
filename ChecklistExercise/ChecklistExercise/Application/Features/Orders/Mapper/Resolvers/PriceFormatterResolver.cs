@@ -1,9 +1,8 @@
-﻿using System.Globalization;
-namespace ChecklistExercise.Resolvers;
+﻿namespace ChecklistExercise.Application.Features.Orders.Mapper.Resolvers;
 using AutoMapper;
-using ChecklistExercise.Models;
-using ChecklistExercise.Dtos;
-
+using ChecklistExercise.Domain.Entities.Orders;
+using ChecklistExercise.Application.Features.Orders.Dtos;
+using System.Globalization;
 
 public class PriceFormatterResolver : IValueResolver<Order, OrderProfileDto, string>
 {

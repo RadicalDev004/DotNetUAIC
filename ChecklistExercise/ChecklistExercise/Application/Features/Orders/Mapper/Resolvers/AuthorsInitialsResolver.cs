@@ -1,7 +1,7 @@
-﻿namespace ChecklistExercise.Resolvers;
+﻿namespace ChecklistExercise.Application.Features.Orders.Mapper.Resolvers;
 using AutoMapper;
-using ChecklistExercise.Models;
-using ChecklistExercise.Dtos;
+using ChecklistExercise.Application.Features.Orders.Dtos;
+using ChecklistExercise.Domain.Entities.Orders;
 
 public class AuthorInitialsResolver : IValueResolver<Order, OrderProfileDto, string>
 {

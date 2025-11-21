@@ -1,7 +1,8 @@
-﻿namespace ChecklistExercise.Resolvers;
+﻿namespace ChecklistExercise.Application.Features.Orders.Mapper.Resolvers;
 using AutoMapper;
-using ChecklistExercise.Models;
-using ChecklistExercise.Dtos;
+using ChecklistExercise.Domain.Entities.Orders;
+using ChecklistExercise.Application.Features.Orders.Dtos;
+
 public class CategoryDisplayResolver : IValueResolver<Order, OrderProfileDto, string>
 {
     public string Resolve(Order src, OrderProfileDto dest, string destMember, ResolutionContext ctx)

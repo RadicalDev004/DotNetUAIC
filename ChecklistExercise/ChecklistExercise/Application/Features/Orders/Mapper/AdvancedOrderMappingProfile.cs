@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Globalization;
 using AutoMapper;
-using ChecklistExercise.Models; 
-using ChecklistExercise.Dtos;
-using ChecklistExercise.Requests; 
-using ChecklistExercise.Resolvers;
+using ChecklistExercise.Application.Features.Orders.Dtos;
+using ChecklistExercise.Application.Features.Orders.Mapper.Resolvers;
+using ChecklistExercise.Domain.Entities.Orders;
+
+namespace ChecklistExercise.Application.Features.Orders.Mapper;
+
 public class AdvancedOrderMappingProfile : Profile
 {
     public AdvancedOrderMappingProfile()

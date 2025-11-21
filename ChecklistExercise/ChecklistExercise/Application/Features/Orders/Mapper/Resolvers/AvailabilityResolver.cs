@@ -1,7 +1,7 @@
-﻿namespace ChecklistExercise.Resolvers;
+﻿namespace ChecklistExercise.Application.Features.Orders.Mapper.Resolvers;
 using AutoMapper;
-using ChecklistExercise.Models;
-using ChecklistExercise.Dtos;
+using ChecklistExercise.Domain.Entities.Orders;
+using ChecklistExercise.Application.Features.Orders.Dtos;
 
 public class AvailabilityStatusResolver : IValueResolver<Order, OrderProfileDto, string>
 {

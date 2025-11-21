@@ -1,4 +1,4 @@
-﻿namespace ChecklistExercise.Models;
+﻿namespace ChecklistExercise.Domain.Entities.Orders;
 
 public enum OrderCategory
 {

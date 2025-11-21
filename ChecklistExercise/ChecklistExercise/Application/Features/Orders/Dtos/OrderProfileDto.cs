@@ -1,4 +1,4 @@
-﻿namespace ChecklistExercise.Dtos;
+﻿namespace ChecklistExercise.Application.Features.Orders.Dtos;
 
 public class OrderProfileDto
 {

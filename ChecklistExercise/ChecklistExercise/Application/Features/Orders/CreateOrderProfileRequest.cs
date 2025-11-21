@@ -1,6 +1,10 @@
-﻿namespace ChecklistExercise.Models;
+﻿namespace ChecklistExercise.Application.Features.Orders;
 
-public class Order
+using ChecklistExercise.Application.Features.Orders.Dtos;
+using ChecklistExercise.Domain.Entities.Orders;
+using MediatR;
+
+public class CreateOrderProfileRequest : IRequest<OrderProfileDto>
 {
     public string Title { get; set; }
     public string Author { get; set; }
@@ -9,6 +13,5 @@ public class Order
     public decimal Price { get; set; }
     public DateTime PublishedDate { get; set; }
     public string? CoverImageUrl { get; set; }
-    public bool IsAvailable => StockQuantity > 0;
-    public int StockQuantity { get; set; } = 0;
+    public int StockQuantity { get; set; } = 1;
 }
